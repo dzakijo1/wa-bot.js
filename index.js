@@ -186,7 +186,6 @@ const startServer = async (from) => {
                 const groupMembers = isGroupMsg ? await client.getGroupMembersId(groupId) : ''
                 const isGroupAdmins = isGroupMsg ? groupAdmins.includes(serial) : false
                 const isBanned = banned.includes(serial)
-                const isSimi = simsimi.includes(serial)
                 const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : false
                 const commands = commandArray
                 const cmds = commands.map(x => x + '\\b').join('|')
@@ -629,7 +628,7 @@ _*Processing Sukses #XyZ BOT*_`
                         })
                     break
                     case prefix+'lirik':
-                        // Premium
+                        // Premium Only
                         break
                     case prefix+'ban':
                         if(!isSadmin) return
@@ -819,7 +818,7 @@ _*Processing Sukses #XyZ BOT*_`
                         }
                         break
                     case prefix+'everyone':
-                        //
+                        // Premium Only
                         break
                     case prefix+'banchat on':
                         if(setting.banChats === true) return
