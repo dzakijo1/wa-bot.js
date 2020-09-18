@@ -4,26 +4,33 @@
 <p align="center"><img src="/.github/banner.png" alt="github-readme-template" border="0"></p>
 
 ## Installation
-```cli
+```bash
 npm i
 npm i -g pm2
 ```
 ## Linux error fix
-```cli
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 ## Usage
-```cli
+```bash
 pm2 start run.js
 pm2 monit
 ```
 ## Information
+- Recommended for linux users and vps users
 - BOT active from 9:00AM - 9:00PM
 - This bot support 24hours if no error throwed and limit reset every 12:00 AM local time
+- Bot reply speed based on your server or device where bot scanned qr is
 - Change sAdmin number on settings/setting.json
 - Change prefix command on settings/setting.json, default is "!"
 - Do not copy my help/watermark template or your bot got banned from WhatsApp
+
+## Fix !ytmp3 error
+```bash
+npm i fluent-ffmpeg
+```
 
 ## Features
 #### Chat util
@@ -76,6 +83,7 @@ Instagram currently disabled due to unexpected error
 | Random Anime Wallpaper |✅|
 | Nhentai Downloader|✅|
 | Nhentai Doujin Info |✅|
+
 Adult content help is !adult zone
 #### Premium Content
 | Feature | Yes  |
@@ -83,7 +91,8 @@ Adult content help is !adult zone
 | SimSimi ChatBOT |✅|
 | Brainly Search |✅|
 | Lyric Search |✅|
-| Tag Everyone|✅|
+| Tag Everyone |✅|
+
 Premium only for the donator
 
 ## ContactMe
