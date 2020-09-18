@@ -29,8 +29,12 @@ pm2 monit
 
 ## Fix !ytmp3 error
 ```bash
+sudo apt install ffmpeg
 npm i fluent-ffmpeg
 ```
+### For windows user
+- [FFMPEG](https://ffmpeg.org/download.html)
+- [TUTORIAL](https://video.stackexchange.com/questions/20495/how-do-i-set-up-and-use-ffmpeg-in-windows)
 
 ## Features
 #### Chat util
@@ -100,20 +104,16 @@ Premium only for the donator
 - [Instagram](https://www.instagram.com/itzngga)
 
 ## Donation
-
 - [SAWERIA](https://saweria.co/donate/ItzNgga)
 - [OVO/GOPAY/DANA](081297980063)
 
 ## Thanks to
-
 - [WA-Automate](https://github.com/open-wa/wa-automate-nodejs)
 - [AzusaBot](https://github.com/fossabot/AzusaBot)
 - [YogaSakti](https://github.com/YogaSakti/imageToSticker)
 
 ## Legal
-
 WhatsApp are not allowing user using External Automation, USE AT YOUR OWN RISK
 
 ## License
-
 - [MIT](/LICENSE)
